@@ -12,7 +12,7 @@
     }
   ],
   "main": "dist/index.js",
-  "repository": "https://github.com/nuxt-community/auth-module",
+  "repository": "https://github.com/herbertscruz/auth-module.git",
   "publishConfig": {
     "access": "public"
   },
