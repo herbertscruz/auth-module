@@ -13,13 +13,13 @@
 [📖 **Release Notes**](./CHANGELOG.md)
 
 ## Setup
-- Add `@nuxtjs/auth` dependency using yarn or npm to your project
-- Add `@nuxtjs/auth` and `@nuxtjs/axios` to `modules` section of `nuxt.config.js`
+- Add `nuxt-auth` dependency using yarn or npm to your project
+- Add `nuxt-auth` and `@nuxtjs/axios` to `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
-    '@nuxtjs/auth',
+    'nuxt-auth',
 
      // ...Axios module should be included AFTER @nuxtjs/auth
     '@nuxtjs/axios'
