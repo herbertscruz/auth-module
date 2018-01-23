@@ -28,7 +28,8 @@
  auth: {
    login: {
      endpoint: 'auth/login',
-     propertyName: 'token'
+     propertyName: 'data',
+     tokenPath: '.token'
    },
    logout: {
      endpoint: 'auth/logout',
