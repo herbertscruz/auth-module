@@ -29,7 +29,7 @@
    login: {
      endpoint: 'auth/login',
      propertyName: 'data',
-     tokenPath: '.token'
+     tokenPath: 'token'
    },
    logout: {
      endpoint: 'auth/logout',
