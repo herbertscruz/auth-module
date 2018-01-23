@@ -57,6 +57,7 @@
 Set the global settings for the login action.
 * **endpoint** - Set the URL of the login endpoint. It can be a relative or absolute path.
 * **propertyName** - Set the name of the return object property that contains the access token.
+* **tokenPath** - Set the location of token in JSON response.
 
 #### logout
 Sets the global settings for the logout action.
