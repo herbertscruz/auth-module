@@ -129,11 +129,14 @@ export default {
 
     // Login
     async login ({ dispatch }, { fields } = {}) {
-      let {endpoint, propertyName} = options.login
+      let {endpoint, propertyName, tokenPath} = options.login
 
       // Send credentials to API
       let tokenData = await this.$axios.$post(endpoint, fields)
       let token = tokenData[propertyName]
+      
+      // Render token data from JSON response
+      if (tokenPath) token = token + '.' + tokenPath
 
       // Update new token
       dispatch('updateToken', token)
